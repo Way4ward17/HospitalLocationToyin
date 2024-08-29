@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LocateHospital</string>
+    <string name="title_activity_maps">LocateHosp</string>
+    <string name="gps_network_not_enabled">GPS or network services are disabled. Do you wish to enable them? </string>
+    <string name="open_location_settings">Enable GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search_title">Search for Hospitals</string>
+    <string name="search_hint">Search for nearby hopsitals</string>
+    <string name="message_no_result">Sorry, we could not find any results matching your query. \nPlease try another query.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="google_maps_key">AIzaSyBVf7U8Dw579t0Xms-mzLrS6JCSF_M5qbU</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="google_maps_web_key">AIzaSyAlu141pyz-gUf0iE4UmkjMOoEmgt8mOsM</string>
+
+    <string-array name="array_option_type">
+        <item>Hospital</item>
+        <item>Doctor/Clinic</item>
+        <item>Dentist</item>
+    </string-array>
+
+    <string-array name="array_option_rank">
+        <item>Prominence</item>
+        <item>Distance</item>
+    </string-array>
+</resources>
