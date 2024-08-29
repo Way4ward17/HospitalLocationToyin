@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.Signup">
+    tools:context=".activities.Signup">
 
 
     <RelativeLayout
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
-            android:text="Create Account"
+            android:text="@string/create_account"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -45,11 +45,11 @@
 
 
         <ImageView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:layout_width="match_parent"
-        android:src="@drawable/splash_image"
-        android:layout_height="200dp"/>
+        android:layout_width="100dp"
+        android:src="@drawable/img"
+        android:layout_height="100dp"/>
 
 
 
@@ -88,7 +88,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:paddingStart="10dp"
-                    android:inputType="textEmailAddress"
+                    android:inputType="number"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/matric"
@@ -151,7 +151,6 @@
 
 
     <com.google.android.material.button.MaterialButton
-        app:icon="@drawable/signup_icon"
         app:iconSize="24dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/button_style"
@@ -159,7 +158,7 @@
         android:onClick="signup"
         android:layout_width="250dp"
         android:text="Create Account"
-        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
         android:layout_margin="10dp"
         android:layout_height="50dp"/>
 

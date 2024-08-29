@@ -23,4 +23,13 @@
         <item>Prominence</item>
         <item>Distance</item>
     </string-array>
+
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="fullname">Fullname</string>
+    <string name="matric">Phone Number</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="create_account">Create Account</string>
+
+
 </resources>

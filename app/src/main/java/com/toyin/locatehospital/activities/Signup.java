@@ -20,7 +20,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
-import com.wayvytech.hospitallocations.R;
+import com.toyin.locatehospital.R;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -112,7 +112,7 @@ public class Signup extends AppCompatActivity {
         Map<String, String> map = new HashMap<>();
         map.put("id", push);
         map.put("name", fullname.getText().toString());
-        map.put("matricnumber", matricnumber.getText().toString());
+        map.put("phonenumber", matricnumber.getText().toString());
         map.put("date", date);
 
 

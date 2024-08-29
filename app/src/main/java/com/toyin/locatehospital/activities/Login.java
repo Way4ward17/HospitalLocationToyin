@@ -70,7 +70,7 @@ public class Login extends AppCompatActivity {
                         preferencesEditor.apply();
                         hideLoading();
                         Toast.makeText(Login.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(Login.this, MapsActivity.class));
+                        startActivity(new Intent(Login.this, MainActivity.class));
                         finish();
                     }else{
                         hideLoading();
@@ -99,5 +99,9 @@ public class Login extends AppCompatActivity {
 
     public void close(View view) {
         finish();
+    }
+
+    public void signup(View view) {
+        startActivity(new Intent(Login.this, Signup.class));
     }
 }
